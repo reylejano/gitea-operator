@@ -1,8 +1,17 @@
 resources:
 - manager.yaml
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 720cd83 (Update for SDK 1.39)
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: controller
   newName: quay.io/rhpds/gitea-operator
-  newTag: v2.1.0
+  newTag: v2.0.6
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 94d4f91 (Updated Gitea Operator)
+=======
+>>>>>>> parent of 720cd83 (Update for SDK 1.39)

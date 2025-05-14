@@ -3,11 +3,8 @@ apiVersion: pfe.rhpds.com/v1
 kind: Gitea
 metadata:
   name: repository
-  labels:
-    app.kubernetes.io/name: gitea-operator
-    app.kubernetes.io/managed-by: kustomize
 spec:
-  giteaImageTag: 1.23.7
+  giteaImageTag: 1.20.0
   giteaImagePullPolicy: Always
   postgresqlVolumeSize: 4Gi
   giteaVolumeSize: 4Gi

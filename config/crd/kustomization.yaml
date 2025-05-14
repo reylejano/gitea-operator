@@ -3,8 +3,11 @@
 # It should be run by config/default
 resources:
 - bases/pfe.rhpds.com_gitea.yaml
-# +kubebuilder:scaffold:crdkustomizeresource
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 720cd83 (Update for SDK 1.39)
+#+kubebuilder:scaffold:crdkustomizeresource
 patches:
 - path: ./patches/crd_openapi.yaml
   target:
@@ -12,3 +15,9 @@ patches:
     version: v1
     kind: CustomResourceDefinition
     name: gitea.pfe.rhpds.com
+<<<<<<< HEAD
+=======
+# +kubebuilder:scaffold:crdkustomizeresource
+>>>>>>> parent of 94d4f91 (Updated Gitea Operator)
+=======
+>>>>>>> parent of 720cd83 (Update for SDK 1.39)
