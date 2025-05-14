@@ -5,8 +5,11 @@ resources:
 - bases/pfe.rhpds.com_gitea.yaml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 720cd83 (Update for SDK 1.39)
+=======
+>>>>>>> parent of 8c732e8 (Merge pull request #30 from rhpds/update_139)
 #+kubebuilder:scaffold:crdkustomizeresource
 patches:
 - path: ./patches/crd_openapi.yaml
